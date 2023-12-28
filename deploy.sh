@@ -1,4 +1,4 @@
-pl#!/bin/bash
+#!/bin/bash
 
 # Default
 CONFIG_PATH=.ftp_config
