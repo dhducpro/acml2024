@@ -1,7 +1,7 @@
-#!/bin/bash
+pl#!/bin/bash
 
 # Default
-CONFIG_PATH=.ftp_config
+CONFIG_PATH=example.ftp_config
 PASSIVE_MODE=on
 VERIFY_CERT=true
 BUILD_ENV=production
