@@ -1,7 +1,7 @@
 HOST=https://www.acml-conf.org/2024/
 USER=user
 PASS=password
-TARGET_FOLDER=/path/to/deploy
+TARGET_FOLDER=/acml2024
 PASSIVE_MODE=on
 VERIFY_CERT=true
 BUILD_ENV=production
