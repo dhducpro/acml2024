@@ -1,7 +1,7 @@
 pl#!/bin/bash
 
 # Default
-CONFIG_PATH=example.ftp_config
+CONFIG_PATH=.ftp_config
 PASSIVE_MODE=on
 VERIFY_CERT=true
 BUILD_ENV=production
@@ -26,7 +26,7 @@ SOURCE_FOLDER="$PWD/_site"
 echo "Building website ($BUILD_ENV)..."
 JEKYLL_ENV=$BUILD_ENV bundle exec jekyll build
 
-echo "Deploying ($SOURCE_FOLDER) to (https://www.acml-conf.org/2024/)..."
+echo "Deploying ($SOURCE_FOLDER) to ($USER@$HOST:$TARGET_FOLDER)..."
 
 lftp -f "
 set ftp:passive-mode $PASSIVE_MODE
