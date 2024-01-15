@@ -1,0 +1,91 @@
+main:
+  - title: "News"
+    url: /news/
+  - title: "Calls"
+    sublinks: 'calls'
+  - title: "Format"
+    url: /format/
+  - title: "Attend"
+    sublinks: 'attend'
+  - title: "Program"
+    url: /program/
+  - title: "Committees"
+    url: /committees/
+  # - title: "Hotel"
+  #   url: /hotel/
+  - title: "Contact"
+    url: /contact/
+
+  # - title: "Conference"
+  #   sublinks: 'conference'
+  # - title: "School"
+  #   sublinks: 'oamls'
+  # - title: "Tutorial"
+  #   url: /tutorials/
+  # - title: "Workshop"
+  #   url: /workshops/
+  # - title: "Organization"
+  #   sublinks: 'organization'
+  # - title: "Misc"
+  #   sublinks: 'misc'
+
+attend:
+  - title: "attend"
+    children:
+    - title: "Accommodation"
+      url: /attend/accommodation/
+    - title: "Explore Vietnam"
+      url: /attend/explore/
+    - title: "Dining options"
+      url: /attend/dining/
+
+calls:
+  - title: "Call For"
+    children:
+    - title: "Papers"
+      url: /calls/papers/
+    - title: "Sponsors"
+      url: /calls/sponsors_call/
+    # - title: "Workshops"
+    #   url: /calls/workshops/
+    # - title: "Nominations"
+    #   url: /calls/nominations/
+
+
+
+
+# conference:
+#   - title: "Conference"
+#     children:
+#     - title: "Accepted Papers"
+#       url: /conference/accepted-papers/
+#     - title: "Invited Speakers"
+#       url: /conference/invited-speakers/
+#     - title: "Awards"
+#       url: /conference/awards/
+
+organization:
+  - title: "organization"
+    children:
+    - title: "ACML 2024 Committees"
+      url: /committees/
+    - title: "Steering Committees"
+      url: http://acml-conf.org/Committee.ashx
+
+misc:
+  - title: "Misc"
+    children:
+    - title: "Past Conferences"
+      url: http://acml-conf.org/
+
+# oamls:
+#   - title: "School"
+#     children:
+#     - title: "Home"
+#       url: /school/
+#     - title: "Schedule"
+#       url: /school/schedule/
+#     - title: "Call for Applications"
+#       url: /school/call-for-applications/
+    # - title: "Frequently Asked Questions"
+    #   url: /school/faq/
