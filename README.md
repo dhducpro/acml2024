@@ -1,7 +1,7 @@
-# ACML 2021 Website
+# ACML 2024 Website
 [![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 
-This is the code of the official website for the 13th Asian Conference on Machine Learning.
+This is the code of the official website for the 16th Asian Conference on Machine Learning.
 
 ## Development
 
